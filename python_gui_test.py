@@ -10,6 +10,7 @@ class my_gui():
     def __init__(self):
         self.createTheme()
         self.root_windows = ttk.Window(themename=self.themeName)
+        self.root_windows.update()
         self.root_windows.iconphoto(True, tk.PhotoImage(data=self.getIconData()))
         self.root_windows.title('I am yxd')
 
