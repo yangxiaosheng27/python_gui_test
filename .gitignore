@@ -1,0 +1,6 @@
+/build/
+/dist/
+/setup/*.exe
+/main.py
+/python_gui_test.spec
+/main.spec
